@@ -15,9 +15,9 @@ export const HeroSection = () => {
         <p className="mt-4 text-center text-white/60">I specialize in transforming designs into functional,
             high-perfoming web applications. Let&apos;s discuss your next project.
         </p>
-        <div className="flex flex-col">
-            <button className="inline-flex items-center gap-2">
-                <span>Explore My Work</span>
+        <div className="flex flex-col items-center">
+            <button className="inline-flex items-center gap-2 border-white/15 px-6 h-12 rounded-xl">
+                <span className="font-semibold">Explore My Work</span>
                 <ArrowDown className="size-4"/>
             </button>
             <button className="inline-flex">
