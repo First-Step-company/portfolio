@@ -1,7 +1,7 @@
 export const Header = () => {
-  return <div>
+  return <div className="flex justify-center items-center relative top-3">
     <nav>
-        <a href="">Home</a>
+        <a href="" className="px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold">Home</a>
         <a href="">Prjects</a>
         <a href="">About</a>
         <a href="">Contact</a>
