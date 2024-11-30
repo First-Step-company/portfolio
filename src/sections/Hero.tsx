@@ -9,7 +9,7 @@ export const HeroSection = () => {
             <div>Available for new project</div>
         </div>
         <h1>Building Exceptional User Experiences</h1>
-        <p>I'm a skilled front-end developer with a passion for crafting intuitive and visually stunning digital products.</p>
+        <p>I am a skilled front-end developer with a passion for crafting intuitive and visually stunning digital products.</p>
     </div>
   </div>;
 };
