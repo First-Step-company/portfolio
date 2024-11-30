@@ -11,16 +11,16 @@ export const HeroSection = () => {
             <div className="text-sm font-medium">Available for new project</div>
         </div>
         </div>
-        <h1 className="font-serif text-3xl text-center mt-8">Building Exceptional User Experiences</h1>
-        <p>I specialize in transforming designs into functional,
+        <h1 className="font-serif text-3xl text-center mt-8 tracking-wide">Building Exceptional User Experiences</h1>
+        <p className="mt-4 text-center text-white/60">I specialize in transforming designs into functional,
             high-perfoming web applications. Let&apos;s discuss your next project.
         </p>
-        <div>
-            <button>
+        <div className="flex flex-col">
+            <button className="inline-flex items-center gap-2">
                 <span>Explore My Work</span>
-                <ArrowDown/>
+                <ArrowDown className="size-4"/>
             </button>
-            <button>
+            <button className="inline-flex">
                 <span>👋</span>
                 <span>Lest&apos;s Connect</span>
             </button>
