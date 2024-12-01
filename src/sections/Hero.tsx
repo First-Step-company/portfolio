@@ -2,7 +2,7 @@ import memojiImage from "@/assets/images/memoji-computer.png";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import Image from "next/image";
 export const HeroSection = () => {
-  return <div className="py-32 md:py-48">
+  return <div className="py-32 md:py-30 lg:py-48 ">
     <div className="container">
         <div className="flex flex-col items-center">
     <Image src={memojiImage} className="size-[100px]" alt="Person"  />
@@ -17,7 +17,7 @@ export const HeroSection = () => {
             high-perfoming web applications. Let&apos;s discuss your next project.
         </p>
         </div>
-        <div className="flex flex-col items-center mt-8">
+        <div className="flex flex-col md:flex-row justify-center items-center mt-8">
             <button className="inline-flex items-center gap-2 border-white/15 px-6 h-12 rounded-xl">
                 <span className="font-semibold">Explore My Work</span>
                 <ArrowDown className="size-4"/>
