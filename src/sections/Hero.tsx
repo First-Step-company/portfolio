@@ -3,7 +3,8 @@ import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import Image from "next/image";
 export const HeroSection = () => {
-  return( <div className="py-32 md:py-48 lg:py-60 relative z-0">
+  return(
+    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
     <div className="absolute inset-0 -z-30 opacity-5" style={{
         backgroundImage:`url(${grainImage.src})`
     }}></div>
